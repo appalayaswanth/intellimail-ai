@@ -1,0 +1,11 @@
+IntelliMail AI deployment package
+
+1. Extract this folder.
+2. Keep .env.example as a template. Never upload your real .env file or API keys.
+3. Confirm the folder contains app.py and requirements.txt at its root.
+4. Upload the project to a GitHub repository.
+5. In Streamlit Community Cloud, create an app using this repository and app.py.
+
+Note: Streamlit Community Cloud's local filesystem may not provide durable storage.
+The included SQLite database and model artifacts are packaged for initial deployment/testing;
+use persistent storage or an external database for data that must survive restarts.
